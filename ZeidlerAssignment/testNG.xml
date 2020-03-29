@@ -1,0 +1,10 @@
+<suite name="ZeidlerGroup">
+<test name="e2e">
+<classes>
+<class name="testNG.setUp" >
+</class>
+</classes>
+</test>
+</suite>
+
+

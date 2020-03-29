@@ -1,0 +1,35 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testng-results skipped="0" failed="0" ignored="0" total="1" passed="1">
+  <reporter-output>
+  </reporter-output>
+  <suite name="Default suite" duration-ms="231272" started-at="2020-02-06T14:35:43 IST" finished-at="2020-02-06T14:39:34 IST">
+    <groups>
+      <group name="cucumber">
+        <method signature="AbstractTestNGCucumberTests.feature(cucumber.api.testng.CucumberFeatureWrapper)[pri:0, instance:runners.TestRunner@4f063c0a]" name="feature" class="cucumber.api.testng.AbstractTestNGCucumberTests"/>
+      </group> <!-- cucumber -->
+    </groups>
+    <test name="Default test" duration-ms="231272" started-at="2020-02-06T14:35:43 IST" finished-at="2020-02-06T14:39:34 IST">
+      <class name="runners.TestRunner">
+        <test-method status="PASS" signature="setUpClass()[pri:0, instance:runners.TestRunner@4f063c0a]" name="setUpClass" is-config="true" duration-ms="321" started-at="2020-02-06T14:35:43 IST" finished-at="2020-02-06T14:35:44 IST">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setUpClass -->
+        <test-method status="PASS" signature="feature(cucumber.api.testng.CucumberFeatureWrapper)[pri:0, instance:runners.TestRunner@4f063c0a]" name="feature" duration-ms="230528" started-at="2020-02-06T14:35:44 IST" description="Runs Cucumber Feature" data-provider="features" finished-at="2020-02-06T14:39:34 IST">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[User should able to Login, Logout, Create a Folder/Test, add question and perform]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- feature -->
+        <test-method status="PASS" signature="tearDownClass()[pri:0, instance:runners.TestRunner@4f063c0a]" name="tearDownClass" is-config="true" duration-ms="300" started-at="2020-02-06T14:39:34 IST" finished-at="2020-02-06T14:39:34 IST">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDownClass -->
+      </class> <!-- runners.TestRunner -->
+    </test> <!-- Default test -->
+  </suite> <!-- Default suite -->
+</testng-results>
