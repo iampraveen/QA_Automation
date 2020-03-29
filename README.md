@@ -1,9 +1,6 @@
 # QA_Automation
 This QA assignment contains test cases around database CRUD operation. 
 
-
-# QA Automation Assignment
-
 ## Table of contents
 * [General info](#general-info)
 * [Prerequisite](#technologies)
