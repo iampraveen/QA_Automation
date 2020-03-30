@@ -151,9 +151,7 @@ public class HomePage {
 	}
 	
 	public void validateSearchRecord() throws InterruptedException {
-		for (WebElement column : tableColumns ) {
-			//Assert.assertEquals(column.getText(), "Done! Computer "+ newComputerName +" has been created", "Newly added record alert message is incorrect");	
-		}	
+		Assert.assertEquals(tableColumns.get(0).getText(), newComputerName, "Updated record is not found");
 	}
 	
 	public void openNewRecord() throws InterruptedException {
